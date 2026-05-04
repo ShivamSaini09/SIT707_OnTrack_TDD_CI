@@ -11,7 +11,7 @@ public class SubmitTaskServiceTest {
 
         String result = service.submitTask("S101", "T1", "task1.pdf");
 
-        Assert.assertEquals("Wrong message", result);
+        Assert.assertEquals("Task submitted successfully", result);
     }
 
     @Test
